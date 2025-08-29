@@ -347,6 +347,12 @@ StructField("state", StringType(), True)
 
 # CELL ********************
 
+sales_df = spark.read.parquet("/data/sales")
+# Transformation
+agg_df = sales_df.groupBy("region").agg({"amount": "sum"})
+# Action
+agg_df.show()
+
 
 # METADATA ********************
 
