@@ -1,0 +1,37 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "RawDataAdventureWorks_Product_Categories": {
+      "queryId": "2d5d4cec-d771-4d32-9c88-b88620df095a",
+      "queryName": "RawDataAdventureWorks_Product_Categories",
+      "loadEnabled": false
+    },
+    "RawDataProduct_Subcategories": {
+      "queryId": "c2aa9ca0-8e66-4b51-b9bc-197b72b6f54b",
+      "queryName": "RawDataProduct_Subcategories",
+      "loadEnabled": false
+    },
+    "Merge": {
+      "queryId": "51491985-1da7-4918-850b-7d6ddf385aba",
+      "queryName": "Merge",
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "46d88aa0-f183-4a2c-a4c2-cfb52c7ad0e9",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"f9c7b74f-d227-4695-baf9-1b4d29312745\",\"DatasourceId\":\"e5f9a625-476c-4149-94a8-910c9cacf486\"}"
+    }
+  ]
+}
