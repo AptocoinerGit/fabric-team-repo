@@ -42,10 +42,10 @@
           "secureInput": false,
           "secureOutput": false
         },
-        "name": "Invoke pipeline2",
+        "name": "Invoke pipeline3",
         "dependsOn": [
           {
-            "activity": "Invoke pipeline3",
+            "activity": "Invoke pipeline2",
             "dependencyConditions": [
               "Succeeded"
             ]
@@ -71,7 +71,7 @@
           "secureInput": false,
           "secureOutput": false
         },
-        "name": "Invoke pipeline3",
+        "name": "Invoke pipeline2",
         "dependsOn": [
           {
             "activity": "Invoke pipeline1",
