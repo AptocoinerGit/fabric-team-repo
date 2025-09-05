@@ -1,0 +1,15 @@
+[
+  {
+    "name": "RawDataAdventureWorks_Customers",
+    "path": "/Files",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Files/RawDataAdventureWorks_Customers",
+        "itemId": "df1d0c90-3c60-b8cb-4f21-caa4389307b6",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "Lakehouse"
+      }
+    }
+  }
+]
